@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, SafeAreaView } from 'react-native';
-import StartGameScreen from './screens/StartGameScreen';
-import NotLogged from './screens/NotLogged';
+import StartGameScreen from '../screens/StartGameScreen';
+import NotLogged from '../screens/NotLogged';
 
 
 const App = () => {
@@ -23,7 +23,6 @@ const App = () => {
     </SafeAreaView>
   )
 }
-
 
 const styles = StyleSheet.create({
   screen: {
